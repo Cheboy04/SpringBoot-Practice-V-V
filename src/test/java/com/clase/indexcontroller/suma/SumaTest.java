@@ -22,11 +22,13 @@ class SumaTest {
 
     @Test
     void sumaNegativosTest() {
+        System.out.println("SumaNegativosTest: Iniciando Test Suma");
         assertEquals(-8, suma.suma(-3, -5));
     }
 
     @Test
     void sumaCeroTest() {
+        System.out.println("SumaCeroTest: Iniciando Test Suma");
         assertEquals(5, suma.suma(0, 5));
     }
 
